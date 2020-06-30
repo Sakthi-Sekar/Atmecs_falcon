@@ -1,0 +1,184 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Write test case with the help of Cucumber with Protractor using Javascript",
+    "line": 1,
+    "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript",
+    "tags": [],
+    "uri": "features\\sample.feature",
+    "elements": [
+      {
+        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript;launch-browser,-open-falcon-page-and-verify-the-page-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Launch Browser, Open Falcon page and verify the page title",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Open the Falcon page",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Maximize the window and verify the page title",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "click on the Dashboard And click on the Rest API Test Result title",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "select create falcon post from the drop down box",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "select falcon from the drop down box",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "select pass fromt the status drop down box",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select deleteprojectAPI from the list of content",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript;verify-resent-run-tab-in-main-navigation",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify resent run tab in main navigation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Click recent run tab",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "select the product and testcase",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "verify the status and detail.",
+            "match": {
+              "location": "StepDefinitions\\steps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
